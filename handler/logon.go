@@ -43,7 +43,9 @@ func (h *Handler) Logon(c echo.Context) (err error) {
 	})
 }
 
+//
 // test with:
 // curl -X POST -d 'username=jon' -d 'password=shhh!' --insecure https://localhost:4420/api/logon
 // response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQdWJsaWNLZXkiOiJ4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgiLCJTY3JlZW5OYW1lIjoiZHBsIiwiZXhwIjoxNjEyOTM5MDc4fQ.qCcbg1lBb0Yxu-AllxwuDqdF4pWp6V9soNBT2CU4ILM"}
 // curl https://localhost:4420/api/r/city --insecure -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQdWJsaWNLZXkiOiJ4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgiLCJTY3JlZW5OYW1lIjoiZHBsIiwiZXhwIjoxNjEyOTM5MDc4fQ.qCcbg1lBb0Yxu-AllxwuDqdF4pWp6V9soNBT2CU4ILM"
+//
