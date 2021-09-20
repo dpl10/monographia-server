@@ -1,0 +1,13 @@
+{
+	"AngularPortHTTP": "http://0.0.0.0:4200",
+	"AngularProxy": true,
+	"BodyLimit": "1M",
+	"ConnectionStringMySQL": "monographia:Linnaeus@(localhost:3306)/Monographia",
+	"DatabaseConnections": 4,
+	"Host": "localhost",
+	"JWTlife": 12,
+	"PrivateKey": "cert/monographia-private.pem",
+	"PublicKey": "cert/monographia-public.pem",
+	"ServerPortHTTP": "0.0.0.0:8000",
+	"ServerPortHTTPS": "0.0.0.0:4420"
+}
